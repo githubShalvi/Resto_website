@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+
+.soups{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/mainmenu/roti/roti1.jpg);
+    background-position: centre;
+    background-size:cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+}
+.arrow i{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    background-size:cover;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.starter{
+    width:250px;
+    height:270px;
+    display:inline-block;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.s1{
+    background-image: url(images/mainmenu/roti/chapati.jpg);
+}
+.s2{
+    background-image: url(images/mainmenu/roti/tandoori.jpg);
+}
+.s3{
+    background-image: url(images/mainmenu/roti/jawar\ roti.jpg);
+}
+.s4{
+    background-image: url(images/mainmenu/roti/kulcha.jpg);
+}
+.s5{
+    background-image: url(images/mainmenu/roti/nan.jpg);
+}
+.s6{
+    background-image: url(images/mainmenu/roti/paratha.jpg);
+}
+
+.col{
+    padding-top: 10%;
+    padding-left: 7%;
+}
+.starter:hover{
+    transform:translateY(-10px);
+}
+figcaption{
+    font-weight: bold;
+    color: white;
+}
+.bottomleft {
+    position:absolute;
+    bottom: 8px;
+    left: 98%;
+    font-size: 20px;
+  }
+  .icon1{
+    color: blue;
+  }
+  .icon2{
+    color: rgb(0, 208, 255);
+  }
+  .icon3{
+    color: rgb(253, 253, 253); 
+  }
+  .icon4{
+    color: rgb(250, 26, 1);
+  }

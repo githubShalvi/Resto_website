@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+
+.starter{
+    width:240px;
+    height:250px;
+    display:inline-block;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.arrow i{
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    margin: 20px;
+    width: auto;
+    background-size:cover;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.soups{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/mainmenu/bhaji/bhaji1.jpg);
+    background-position: centre;
+    background-size:cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+}
+.s1{
+    background-image: url(images/mainmenu/bhaji/aarvis\ special.jpg);
+}
+.s2{
+    background-image: url(images/mainmenu/bhaji/dal\ makhani.jpg);
+}
+.s3{
+    background-image: url(images/mainmenu/bhaji/kaju\ masala.jpg);
+}
+.s4{
+    background-image: url(images/mainmenu/bhaji/lauki\ kofta.jpg);
+}
+.s5{
+    background-image: url(images/mainmenu/bhaji/palak\ paneer.jpg);
+}
+.s6{
+    background-image: url(images/mainmenu/bhaji/methi\ malai\ matar.jpg);
+}
+.s7{
+    background-image: url(images/mainmenu/bhaji/saag\ aloo.jpg);
+}
+.s8{
+    background-image: url(images/mainmenu/bhaji/tawa\ paneer.jpg);
+}
+.col{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.starter:hover{
+    transform:translateY(-10px);
+}
+figcaption{
+    font-weight: bold;
+    color: white;
+}
+.bottomleft {
+    position:absolute;
+    bottom: 8px;
+    right: 98%;
+    font-size: 20px;
+  }
+  .icon1{
+    color: blue;
+  }
+  .icon2{
+    color: rgb(0, 208, 255);
+  }
+  .icon3{
+    color: rgb(253, 253, 253); 
+  }
+  .icon4{
+    color: rgb(250, 26, 1);
+  }

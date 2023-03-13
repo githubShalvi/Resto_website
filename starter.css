@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+body{
+
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/starter2.jpg);
+    background-position: centre;
+    background-size:cover;
+    padding-left:7%;
+    padding-right:8%;
+    padding-top: 3%;
+    box-sizing:border-box;
+}
+
+.starter{
+    width:250px;
+    height:250px;
+    display:inline-block;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.arrow i{
+    text-decoration: none;
+    color: white;
+}
+
+
+figcaption{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+h3{
+    color: rgb(214, 177, 177);
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.s1{
+    background-image: url(images/soup/soup1.jpg);
+}
+.s2{
+    background-image: url(images/noodles.jpg);
+}
+.s3{
+    background-image: url(images/masala\ papad.jpg);
+}
+.s4{
+    background-image: url(images/sandwich/sandwich1.jpg);
+}
+.s5{
+    background-image: url(images/fingerchips.jpg);
+}
+.s6{
+    background-image: url(images/munchurian.jpg);
+}
+.s7{
+    background-image: url(images/veg\ lollipop.jpg);
+}
+.s8{
+    background-image: url(images/paneer\ cutlet.jpg);
+}
+.s9{
+    background-image: url(images/pakora/pakora1.jpg);
+}
+.s10{
+    background-image: url(images/kabab.jpg);
+}
+.starter:hover{
+    transform:translateY(-10px);
+}
+footer p{
+    padding-right: 1px;
+    padding-left: 900px;
+    padding-bottom: 20px;
+    color: rgb(214, 177, 177);
+    font-weight: bold;
+    
+}
+p1{
+    color: rgb(253, 253, 253);
+    font-size: 10px;
+     
+    font-size: 20px;
+    
+}
+p2{
+    
+    color:white;
+    font-size: 30px;
+}
+p4{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
